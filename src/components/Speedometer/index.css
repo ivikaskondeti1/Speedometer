@@ -1,0 +1,46 @@
+.Container {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+img {
+  margin: 0;
+  height: 300px;
+  width: 70%;
+}
+.Heading {
+  font-style: italic;
+}
+p {
+  color: #cbd5e1;
+  opacity: 50%;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  width: 17%;
+  justify-content: space-between;
+}
+.btn1 {
+  color: white;
+  background-color: blue;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  border: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+.btn2 {
+  background-color: transparent;
+  border-radius: 3px;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  color: white;
+}
